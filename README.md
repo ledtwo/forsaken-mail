@@ -2,7 +2,7 @@ Forsaken-Mail
 ==============
 即收即毁的临时邮件服务
 
-[在线演示](http://forsaken.somecolor.cc:3000/)
+[在线演示](http://forsaken.somecolor.cc:6300/)
 
 
 ### 步骤 
@@ -30,12 +30,12 @@ pm2 start start.json
 或Docker启动
 ```
 docker pull malaohu/forsaken-mail
-docker run --name forsaken-mail -d -p 25:25 -p 3000:3000 malaohu/forsaken-mail
+docker run --name forsaken-mail -d -p 25:25 -p 6300:3000 malaohu/forsaken-mail
 ```
 
 
 愉快的使用吧！ 
-http://ip:3000
+http://ip:6300
 
 ### 配置
 
